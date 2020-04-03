@@ -1,11 +1,11 @@
 package database
 
 import (
-	"backend/config"
-	"backend/database/bolt"
-	"backend/database/mysql"
-	"backend/database/postgresql"
-	"backend/database/schema"
+	"github.com/maddie/speedtest/config"
+	"github.com/maddie/speedtest/database/bolt"
+	"github.com/maddie/speedtest/database/mysql"
+	"github.com/maddie/speedtest/database/postgresql"
+	"github.com/maddie/speedtest/database/schema"
 )
 
 var (

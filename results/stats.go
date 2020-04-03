@@ -6,9 +6,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"backend/config"
-	"backend/database"
-	"backend/database/schema"
+	"github.com/maddie/speedtest/config"
+	"github.com/maddie/speedtest/database"
+	"github.com/maddie/speedtest/database/schema"
 )
 
 type StatsData struct {

@@ -16,8 +16,8 @@ import (
 	"github.com/go-chi/render"
 	log "github.com/sirupsen/logrus"
 
-	"backend/config"
-	"backend/results"
+	"github.com/maddie/speedtest/config"
+	"github.com/maddie/speedtest/results"
 )
 
 const (

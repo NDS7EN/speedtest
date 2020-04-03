@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"backend/config"
-	"backend/database"
-	"backend/database/schema"
+	"github.com/maddie/speedtest/config"
+	"github.com/maddie/speedtest/database"
+	"github.com/maddie/speedtest/database/schema"
 
 	"github.com/golang/freetype"
 	"github.com/golang/freetype/truetype"

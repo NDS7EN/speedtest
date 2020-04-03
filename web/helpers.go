@@ -10,17 +10,17 @@ import (
 	"strconv"
 	"strings"
 
-	"backend/config"
-	"backend/results"
+	"github.com/maddie/speedtest/config"
+	"github.com/maddie/speedtest/results"
 
 	log "github.com/sirupsen/logrus"
 )
 
 var (
 	// get server location from ipinfo.io from start to minimize API access
-	serverLat, serverLng = getServerLocation()
+	// serverLat, serverLng = getServerLocation()
 	// for testing
-	// serverLat, serverLng = 22.7702, 112.9578
+	serverLat, serverLng = 22.7702, 112.9578
 	// serverLat, serverLng = 23.018, 113.7487
 )
 

@@ -1,4 +1,4 @@
-module backend
+module github.com/maddie/speedtest
 
 go 1.13
 

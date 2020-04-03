@@ -1,9 +1,9 @@
 package main
 
 import (
-	"backend/config"
-	"backend/database"
-	"backend/web"
+	"github.com/maddie/speedtest/config"
+	"github.com/maddie/speedtest/database"
+	"github.com/maddie/speedtest/web"
 
 	log "github.com/sirupsen/logrus"
 )
